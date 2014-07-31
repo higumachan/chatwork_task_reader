@@ -1,0 +1,20 @@
+{
+	"name": "extension scaffold",
+	"version": "1.0",
+	"description": "this is scaffold for chrome extension.",
+	/*
+	"content_scripts": [
+	{
+		"matches": ["http://www.google.com/*"],
+		"css": ["mystyles.css"],
+		"js": ["jquery.js", "myscript.js"]
+	}
+	],
+	*/
+	/*
+	"browser_action": {
+		"default_icon": "icon.png",
+		"popup": "popup.html"
+	},
+	*/
+}
