@@ -1,17 +1,13 @@
 {
-	"name": "extension scaffold",
-	"version": "1.0",
-	"description": "this is scaffold for chrome extension.",
+	"name": "chatwork_task_reader",
+	"manifest_version": 2,
+	"version": "0.1",
+	"description": "this is reading chatwork tasks.",
 	"content_scripts": [
 	{
 		"matches": ["https://www.chatwork.com/*"],
-		"js": ["jquery.js", "read_task.js"]
+		"js": ["js/jquery.js", "js/read_task.js"]
 	}
-	],
-	/*
-	"browser_action": {
-		"default_icon": "icon.png",
-		"popup": "popup.html"
-	},
-	*/
+	]
 }
+
