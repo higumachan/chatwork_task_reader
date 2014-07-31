@@ -3,6 +3,9 @@
 	"manifest_version": 2,
 	"version": "0.1",
 	"description": "this is reading chatwork tasks.",
+	"permissions": [
+		"storage"
+	],
 	"content_scripts": [
 	{
 		"matches": ["https://www.chatwork.com/*"],
